@@ -1,3 +1,6 @@
-$('body').on('.test', 'click', function(){
-	alert('test')
+/*
+Prueba de eventos con jQuery
+*/
+$('body').on('click', '.test', function(){
+	alert('Esto es una alerta')
 })
